@@ -1,0 +1,100 @@
+{
+    "componentes": [
+        {
+            "tipo": "Generador de funciones",
+            "nombre": "GF1",
+            "parametros": [
+                "Voltaje: 1 V",
+                "Frecuencia: 100 kHz",
+                "Forma: Senoidal"
+            ],
+            "pos": [
+                -60.0,
+                60.0
+            ],
+            "rotacion": 270.0,
+            "escala": 0.15
+        },
+        {
+            "tipo": "Capacitor",
+            "nombre": "C1",
+            "parametros": [
+                "Capacitancia: 1 \u03bcF"
+            ],
+            "pos": [
+                180.0,
+                -160.0
+            ],
+            "rotacion": 0.0,
+            "escala": 0.22
+        },
+        {
+            "tipo": "Resistencia",
+            "nombre": "R1",
+            "parametros": [
+                "Resistencia: 1 k\u03a9"
+            ],
+            "pos": [
+                360.0,
+                -100.0
+            ],
+            "rotacion": 90.0,
+            "escala": 0.16
+        },
+        {
+            "tipo": "GND",
+            "nombre": "GND",
+            "parametros": [
+                "GND"
+            ],
+            "pos": [
+                80.0,
+                40.0
+            ],
+            "rotacion": 0.0,
+            "escala": 0.1
+        }
+    ],
+    "conexiones": [
+        {
+            "c1": [
+                0,
+                1
+            ],
+            "c2": [
+                1,
+                0
+            ]
+        },
+        {
+            "c1": [
+                1,
+                1
+            ],
+            "c2": [
+                2,
+                0
+            ]
+        },
+        {
+            "c1": [
+                2,
+                1
+            ],
+            "c2": [
+                0,
+                0
+            ]
+        },
+        {
+            "c1": [
+                3,
+                0
+            ],
+            "c2": [
+                0,
+                0
+            ]
+        }
+    ]
+}

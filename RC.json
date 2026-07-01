@@ -1,0 +1,98 @@
+{
+    "componentes": [
+        {
+            "tipo": "Fuente Voltaje",
+            "nombre": "V1",
+            "parametros": [
+                "Voltaje: 12 V"
+            ],
+            "pos": [
+                100.0,
+                40.0
+            ],
+            "rotacion": 0.0,
+            "escala": 0.07
+        },
+        {
+            "tipo": "Resistencia",
+            "nombre": "R1",
+            "parametros": [
+                "Resistencia: 1 k\u03a9"
+            ],
+            "pos": [
+                220.0,
+                20.0
+            ],
+            "rotacion": 0.0,
+            "escala": 0.16
+        },
+        {
+            "tipo": "Capacitor",
+            "nombre": "C1",
+            "parametros": [
+                "Capacitancia: 22 \u03bcF"
+            ],
+            "pos": [
+                420.0,
+                80.0
+            ],
+            "rotacion": 90.0,
+            "escala": 0.22
+        },
+        {
+            "tipo": "GND",
+            "nombre": "GND",
+            "parametros": [
+                "GND"
+            ],
+            "pos": [
+                380.0,
+                180.0
+            ],
+            "rotacion": 0.0,
+            "escala": 0.1
+        }
+    ],
+    "conexiones": [
+        {
+            "c1": [
+                0,
+                0
+            ],
+            "c2": [
+                1,
+                0
+            ]
+        },
+        {
+            "c1": [
+                1,
+                1
+            ],
+            "c2": [
+                2,
+                0
+            ]
+        },
+        {
+            "c1": [
+                2,
+                1
+            ],
+            "c2": [
+                0,
+                1
+            ]
+        },
+        {
+            "c1": [
+                3,
+                0
+            ],
+            "c2": [
+                2,
+                1
+            ]
+        }
+    ]
+}

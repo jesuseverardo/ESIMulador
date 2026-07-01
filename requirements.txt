@@ -1,0 +1,11 @@
+PyQt5>=5.15
+numpy
+matplotlib
+sympy
+python-control
+PyYAML
+toml
+python-docx
+reportlab
+openpyxl
+pandas

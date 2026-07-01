@@ -1,0 +1,143 @@
+{
+    "componentes": [
+        {
+            "tipo": "Generador de funciones",
+            "nombre": "GF1",
+            "parametros": [
+                "Voltaje: 50 V",
+                "Frecuencia: 1 kHz",
+                "Forma: Senoidal"
+            ],
+            "pos": [
+                -320.0,
+                100.0
+            ],
+            "rotacion": 270.0,
+            "escala": 0.15
+        },
+        {
+            "tipo": "Bobina",
+            "nombre": "L1",
+            "parametros": [
+                "Inductancia: 1.8 mH"
+            ],
+            "pos": [
+                -40.0,
+                -100.0
+            ],
+            "rotacion": 0.0,
+            "escala": 0.1
+        },
+        {
+            "tipo": "Capacitor",
+            "nombre": "C1",
+            "parametros": [
+                "Capacitancia: 56 \u03bcF"
+            ],
+            "pos": [
+                140.0,
+                -20.0
+            ],
+            "rotacion": 90.0,
+            "escala": 0.22
+        },
+        {
+            "tipo": "Resistencia",
+            "nombre": "R1",
+            "parametros": [
+                "Resistencia: 10 k\u03a9"
+            ],
+            "pos": [
+                320.0,
+                -60.0
+            ],
+            "rotacion": 90.0,
+            "escala": 0.16
+        },
+        {
+            "tipo": "GND",
+            "nombre": "GND",
+            "parametros": [
+                "GND"
+            ],
+            "pos": [
+                -180.0,
+                80.0
+            ],
+            "rotacion": 0.0,
+            "escala": 0.1
+        }
+    ],
+    "conexiones": [
+        {
+            "c1": [
+                0,
+                1
+            ],
+            "c2": [
+                1,
+                0
+            ]
+        },
+        {
+            "c1": [
+                1,
+                1
+            ],
+            "c2": [
+                2,
+                0
+            ]
+        },
+        {
+            "c1": [
+                3,
+                0
+            ],
+            "c2": [
+                2,
+                0
+            ]
+        },
+        {
+            "c1": [
+                3,
+                1
+            ],
+            "c2": [
+                2,
+                1
+            ]
+        },
+        {
+            "c1": [
+                0,
+                0
+            ],
+            "c2": [
+                0,
+                0
+            ]
+        },
+        {
+            "c1": [
+                0,
+                0
+            ],
+            "c2": [
+                2,
+                1
+            ]
+        },
+        {
+            "c1": [
+                4,
+                0
+            ],
+            "c2": [
+                0,
+                0
+            ]
+        }
+    ]
+}
